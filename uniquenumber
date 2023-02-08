@@ -1,0 +1,8 @@
+def unique(x):
+    ans=0
+    n=len(x)
+    for i in (x):
+        ans=ans^i
+    return ans
+l1=[1,2,3,4,5,8,1,2,3,4,5]
+print(unique(l1))
